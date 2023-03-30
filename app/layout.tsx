@@ -21,7 +21,7 @@ const RootLayout: FC<Props> = ({ children }) => {
       <body>
         <div className="relative h-screen w-full bg-[url(/assets/BG-TEMP.jpg)] bg-center bg-fixed bg-cover">
           <div
-            className={`flex flex-col absolute top-0 left-0 bottom-0 right-0 backdrop-blur-xl bg-black/30 ${inter.className}`}
+            className={`flex flex-col absolute top-0 left-0 bottom-0 right-0 backdrop-blur-xl bg-black/30 ${inter.className} overflow-auto`}
           >
             <Header />
             <div className="flex-1">{children}</div>
