@@ -8,19 +8,19 @@ const Footer = () => {
         <div className="border-2 rounded-md p-[1.8px] opacity-50 hover:opacity-80 duration-500">
           <RiFacebookLine
             size={18}
-            className="backdrop-blur-md hover:opacity-80 duration-500"
+            className="hover:opacity-80 duration-500"
           />
         </div>
         <div className="rounded-md p-1">
           <RxInstagramLogo
             size={28}
-            className="backdrop-blur-md opacity-50 hover:opacity-80 duration-500"
+            className="opacity-50 hover:opacity-80 duration-500"
           />
         </div>
         <div className="border-2 rounded-md p-[.5px] opacity-50 hover:opacity-80 duration-500">
           <RiPlayMiniLine
-            size={22}
-            className="backdrop-blur-md hover:opacity-80 duration-500"
+            size={20}
+            className="hover:opacity-80 duration-500"
           />
         </div>
       </div>
